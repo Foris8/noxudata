@@ -16,13 +16,13 @@ const suggestionButtons: SuggestionButtonType[] = [
 const ChatBox: React.FC = () => {
   return (
     <div className="flex justify-between flex-col p-4 border-t border-gray-200">
-      <div className="flex space-x-4  ml-40">
+      <div className="flex space-x-4  ml-96">
         {suggestionButtons.map((button, index) => (
           <SuggestionButton key={index} text={button.text}  />
         ))}
       </div>
 
-      <div className="flex space-x-4 items-center m-4 ml-40">
+      <div className="flex space-x-4 items-center m-4 ml-96">
         <div className="flex border rounded-md">
             <div className="flex p-2  items-center border-r justify-between w-28">
                 <BsChat className='mr-2'/>

@@ -10,7 +10,7 @@ const UserChat: React.FC<UserChatProps> = ({ chatContent, userPhoto }) => {
       <Image
         src={userPhoto}
         alt="User"
-        className="w-10 h-10 rounded-full object-cover ml-40"
+        className="w-10 h-10 rounded-full object-cover ml-96"
         width={25}
         height={100}
       />

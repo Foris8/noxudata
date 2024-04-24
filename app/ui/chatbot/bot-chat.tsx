@@ -5,7 +5,7 @@ import TableComponent from "./table"
 export default function BotChat(){
     return(
         <div className="flex p-5 flex-col shadow  ">
-            <div className="ml-40" style={{ maxWidth: '250px' }}>
+            <div className="ml-96" style={{ maxWidth: '250px' }}>
                 <HumanHelper/>
             </div>
         

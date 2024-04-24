@@ -21,7 +21,7 @@ const data: TableRowData[] = [
 
 const TableComponent: React.FC = () => {
   return (
-    <div className="overflow-x-auto relative ml-52">
+    <div className="overflow-x-auto relative ml-96">
       <table className="text-sm text-left text-gray-500 table-auto">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
             <tr>

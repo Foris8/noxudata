@@ -10,7 +10,7 @@ const BotAnswer: React.FC<BotAnswerProps> = ({ chatContent }) => {
       <Image
         src="/noxu-icon.jpeg"
         alt="User"
-        className="w-10 h-10 rounded-full object-cover ml-40"
+        className="w-10 h-10 rounded-full object-cover ml-96"
         width={25}
         height={100}
       />
